@@ -1,0 +1,32 @@
+digraph {
+  FF [xlabel=0];
+  FF -> EE [label=1];
+  FF -> GG [label=1];
+  CC [xlabel=2];
+  CC -> DD [label=1];
+  CC -> BB [label=1];
+  II [xlabel=0];
+  II -> AA [label=1];
+  II -> JJ [label=1];
+  GG [xlabel=0];
+  GG -> FF [label=1];
+  GG -> HH [label=1];
+  DD [xlabel=20];
+  DD -> CC [label=1];
+  DD -> AA [label=1];
+  DD -> EE [label=1];
+  BB [xlabel=13];
+  BB -> CC [label=1];
+  BB -> AA [label=1];
+  EE [xlabel=3];
+  EE -> FF [label=1];
+  EE -> DD [label=1];
+  HH [xlabel=22];
+  HH -> GG [label=1];
+  AA [xlabel=0];
+  AA -> DD [label=1];
+  AA -> II [label=1];
+  AA -> BB [label=1];
+  JJ [xlabel=21];
+  JJ -> II [label=1];
+}
